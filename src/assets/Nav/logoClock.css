@@ -1,0 +1,35 @@
+.logoClock {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    height: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 15px;
+}
+
+/***logo***/
+.header__title {
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+
+.header__title span {
+    color: #4db5ff;
+}
+
+/***Time***/
+.clock {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+/* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 1024px) {
+    .header__title {
+        display: none;
+    }
+}
