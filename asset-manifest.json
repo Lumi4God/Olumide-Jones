@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Olumide-Jones-Portfolio/static/css/main.33133c7f.css",
-    "main.js": "/Olumide-Jones-Portfolio/static/js/main.cd2545bf.js",
+    "main.css": "/Olumide-Jones-Portfolio/static/css/main.9ceed0bd.css",
+    "main.js": "/Olumide-Jones-Portfolio/static/js/main.25fd7093.js",
     "static/media/me-about-me.PNG": "/Olumide-Jones-Portfolio/static/media/me-about-me.53fc5be6ba47988beb9b.PNG",
     "static/media/portfolio-5.jpg": "/Olumide-Jones-Portfolio/static/media/portfolio-5.610978fdb239b88c3a33.jpg",
     "static/media/mine.PNG": "/Olumide-Jones-Portfolio/static/media/mine.052f1a2056d008f89675.PNG",
@@ -12,12 +12,13 @@
     "static/media/portfolio-3.jpeg": "/Olumide-Jones-Portfolio/static/media/portfolio-3.cd5936df04270ea7422a.jpeg",
     "static/media/portfolio-4.jpeg": "/Olumide-Jones-Portfolio/static/media/portfolio-4.6c2fb10246f695cd3dc0.jpeg",
     "static/media/mouse.png": "/Olumide-Jones-Portfolio/static/media/mouse.accdd91ad9deedc20e2f.png",
+    "static/media/1.webp": "/Olumide-Jones-Portfolio/static/media/1.96a0518adc5a717cc48d.webp",
     "index.html": "/Olumide-Jones-Portfolio/index.html",
-    "main.33133c7f.css.map": "/Olumide-Jones-Portfolio/static/css/main.33133c7f.css.map",
-    "main.cd2545bf.js.map": "/Olumide-Jones-Portfolio/static/js/main.cd2545bf.js.map"
+    "main.9ceed0bd.css.map": "/Olumide-Jones-Portfolio/static/css/main.9ceed0bd.css.map",
+    "main.25fd7093.js.map": "/Olumide-Jones-Portfolio/static/js/main.25fd7093.js.map"
   },
   "entrypoints": [
-    "static/css/main.33133c7f.css",
-    "static/js/main.cd2545bf.js"
+    "static/css/main.9ceed0bd.css",
+    "static/js/main.25fd7093.js"
   ]
 }
