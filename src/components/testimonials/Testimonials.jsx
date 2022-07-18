@@ -5,6 +5,7 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 
@@ -41,6 +42,9 @@ const data = [
 
 
 const Testimonials = () => {
+ 
+
+
   return (
     <section id='testimonials'>
       <h5>Review from clients</h5>

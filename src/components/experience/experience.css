@@ -40,6 +40,19 @@
   color: var(--color-primary);
 }
 
+/******************badges*******************/
+.badges {
+  display: flex;
+ justify-content: center;
+  /* margin: 2rem 5% 0 5%;
+  padding: 2rem; */
+  width: 100%;
+}
+.badges .badgeImg {
+  max-width: 15%;
+  /* height: 100px; */
+  border-radius: 5%;
+}
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .experience__container {

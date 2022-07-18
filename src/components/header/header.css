@@ -2,7 +2,10 @@
 
 
 header {
-  /* background-image: url('spine.png'); */
+  background-image: url('../../assets/1.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
@@ -13,13 +16,63 @@ header {
   height: 100%;
   position: relative;
 }
-
-.Mine {
-  width: 40px;
-  height: 7%;
-  position: fixed;
-  top: 10px;
-  right: 10px;
+/*Typing container*/
+.typingContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: .5rem;
+}
+.text, span {
+  font-size: 20px;
+}
+.text ul {
+  height: 30px;
+  list-style: none;
+  overflow: hidden;
+}
+.text ul li {
+  position: relative;
+  height: 100px;
+  animation: to-top 12s steps(4) infinite;
+}
+/* .text ul li span {
+  color: #fff;
+} */
+.text ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; /*#000*/
+  /* border-left: 4px solid white; */
+  animation: to-right 3s steps(19) infinite;
+}
+@keyframes to-right {
+  40%, 50% {
+    left: calc(100% + 50px);
+  }
+  95% {
+    left: 0;
+  }
+}
+@keyframes to-top {
+  100% {
+    transform: translateY(-400%);
+  }
+}
+.span1 {
+  color: rgb(251, 251, 251);
+}
+.span2 {
+  color: rgb(211, 216, 228);
+}
+.span3 {
+  color: rgb(206, 198, 223);
+}
+.span4 {
+  color: rgb(182, 201, 209);
 }
 
 /* =============== CTA ============== */
@@ -104,7 +157,6 @@ header {
     display: none;
   }
 
-  /* added after tutorial */
   .me {
     width: 94%;
     max-width: 20rem;
@@ -112,15 +164,33 @@ header {
     justify-content: center;
   }
 
-  /* added after tutorial */
   .cta {
     margin-top: 1.7rem;
     gap: 1rem;
   }
 }
 
+/*==========================*/
 /*SPline*/
 /* .spline {
   position: absolute;
   height: 100vh;
 } */
+
+/*video*/
+/* #myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+} */
+

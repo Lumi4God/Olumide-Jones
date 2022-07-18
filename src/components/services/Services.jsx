@@ -1,8 +1,13 @@
 import React from 'react'
 import './services.css'
 import {BiCheck} from 'react-icons/bi'
+//Aos 
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 const Services = () => {
+  
+
   return (
     <section id='services'>
       <h5>What I Offer</h5>

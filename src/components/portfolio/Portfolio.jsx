@@ -7,6 +7,7 @@ import IMG4 from '../../assets/portfolioIMGs/portfolio-4.jpeg'
 import IMG5 from '../../assets/portfolioIMGs/portfolio-5.jpg'
 import IMG6 from '../../assets/portfolioIMGs/portfolio-6.jpeg'
 
+
 // DO NOT USE THE IMAGES IN PRODUCTION
 
 const data = [
@@ -56,6 +57,8 @@ const data = [
 
 
 const Portfolio = () => {
+ 
+
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>

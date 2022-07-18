@@ -1,12 +1,12 @@
 .logoClock {
     display: flex;
     justify-content: space-between;
-    width: 99%;
+    width: 100vw;
     height: 10px;
     padding: 10px;
     position: fixed;
     top: 0px;
-    left: 15px;
+    /* left: 15px; */
 }
 
 /***logo***/
@@ -23,13 +23,14 @@
 .clock {
     font-size: 15px;
     font-family: 'Courier New', Courier, monospace;
+    margin-right: 10px;
 }
 
 
 
 /* ================ MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 1024px) {
-    .header__title {
+    /* .header__title {
         display: none;
-    }
+    } */
 }

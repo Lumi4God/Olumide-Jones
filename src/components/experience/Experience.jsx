@@ -1,8 +1,16 @@
-import React from 'react'
+import React/* , { useEffect } */ from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
+/* import Award1 from '../../assets/awards/DCI-Fullstack Developer-2Stars-2022-05-16.png'
+import Award2 from '../../assets/awards/DCI-UserInterfaceDeveloper-3stars- 022-05-16.png'
+import Award3 from '../../assets/awards/DCI-JavascriptDeveloper-3stars-2022-05-16.png'
+import Award4 from '../../assets/awards/DCI-UserInterfaceDeveloper-3stars- 022-05-16.png'
+import Award5 from '../../assets/awards/DCI-React Developer-2Stars-2022-05-16.png' */
+
 
 const Experience = () => {
+  
+
   return (
     <section id='experience'>
       <h5>What Skills I Have</h5>
@@ -99,6 +107,13 @@ const Experience = () => {
           </div>
         </div>
       </div>
+      {/* <section className="badges">
+                <img src={Award1} alt="badge" className="badgeImg"></img>
+                <img src={Award2} alt="badge" className="badgeImg"></img>
+                <img src={Award3} alt="badge" className="badgeImg"></img>
+                <img src={Award4} alt="badge" className="badgeImg"></img>
+                <img src={Award5} alt="badge" className="badgeImg"></img>     
+      </section> */}
     </section>
   )
 }
