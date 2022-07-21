@@ -4,7 +4,10 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
 import {BsWhatsapp} from 'react-icons/bs'
 import { useRef } from 'react';
+//emailJS
 import emailjs from 'emailjs-com'
+//popup-modal
+import Popup from 'reactjs-popup';
 
 const Contact = () => {
   const form = useRef();
@@ -48,7 +51,33 @@ const Contact = () => {
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type='submit' className='btn btn-primary'><span className='span'>Send Message</span></button>
+          
+          <Popup trigger={<button type='submit' className='btn btn-primary'><span className='span'>Send Message</span></button>}modal nested>
+              {close => (
+                <div className="modal">
+                <button className="close" onClick={close}>
+                  &times;
+                </button>
+                <div className="header"> Message sent successfully </div>
+                <div className="content">
+                  {' '}
+                  Thanks for contacting me, i shall reply you immediately.
+                </div>
+                {/*ANOTHER BUTTON TO CLOSE POPUP IF YOU WANT <div className="actions">
+                  <button
+                    className="button"
+                    onClick={() => {
+                      console.log('modal closed ');
+                      close();
+                    }}
+                  >
+                    close modal
+                  </button>
+                </div> */}
+              </div>
+            )}
+          </Popup>
+          {/*THE BUTTON BEFORE POPUP <button type='submit' className='btn btn-primary'><span className='span'>Send Message</span></button> */}
         </form>
       </div>
     </section>

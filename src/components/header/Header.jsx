@@ -5,6 +5,9 @@ import HeaderSocial from './HeaderSocials'
 import Mine from '../../assets/mine.PNG'
 import Mouse from '../../assets/mouse.png'
 import LogoClock from '../../assets/Nav/logoClock.jsx'
+
+import  {RiSingleQuotesL} from 'react-icons/ri'
+import {RiSingleQuotesR} from 'react-icons/ri'
 /* import {BsMouse} from 'react-icons/bs' */
 
 /* import Spline  from "@splinetool/react-spline" */
@@ -28,10 +31,10 @@ const Header = () => {
         <div className="typingContainer">
           <div className="text">
             <ul>
-              <li><span className="span1">Fullstack Developer</span></li>
-              <li><span className="span2">Designer</span></li>
-              <li><span className="span3">Musician</span></li>
-              <li><span className="span4">Content creator</span></li>
+              <li><span className="span1"><RiSingleQuotesL className="rIcon"/> Fullstack Developer <RiSingleQuotesR className="rIcon"/></span></li>
+              <li><span className="span2"><RiSingleQuotesL className="rIcon"/> Designer <RiSingleQuotesR className="rIcon"/></span></li>
+              <li><span className="span3"><RiSingleQuotesL className="rIcon"/> Musician <RiSingleQuotesR className="rIcon"/></span></li>
+              <li><span className="span4"><RiSingleQuotesL className="rIcon"/> Content creator <RiSingleQuotesR className="rIcon"/></span></li>
             </ul>
           </div>
         </div>
