@@ -43,16 +43,15 @@
 /******************badges*******************/
 .badges {
   display: flex;
- justify-content: center;
-  /* margin: 2rem 5% 0 5%;
-  padding: 2rem; */
+  justify-content: center;
   width: 100%;
 }
 .badges .badgeImg {
-  max-width: 15%;
-  /* height: 100px; */
-  border-radius: 5%;
+  width: 8rem;
+  min-width: 5%;
 }
+
+
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   .experience__container {
@@ -81,3 +80,4 @@
     padding: 2rem 1rem;
   }
 }
+
