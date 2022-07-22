@@ -1,4 +1,4 @@
-import React from 'react'
+/* import React from 'react'
 import './header.css'
 
 
@@ -20,7 +20,7 @@ const cube = () => {
   )
 }
 
-export default cube
+export default cube */
 
 /*==================cube css=================*/
 /* .store {

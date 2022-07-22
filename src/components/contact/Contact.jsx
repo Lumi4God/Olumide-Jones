@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {RiMessengerLine} from 'react-icons/ri'
@@ -8,8 +8,17 @@ import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 //popup-modal
 import Popup from 'reactjs-popup';
+//aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Contact = () => {
+
+  //aos 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,7 +30,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <section id='contact' data-aos="fade-right">
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 

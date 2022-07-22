@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolioIMGs/portfolio-1.jpeg'
 import IMG2 from '../../assets/portfolioIMGs/portfolio-2.jpeg'
@@ -6,6 +6,9 @@ import IMG3 from '../../assets/portfolioIMGs/portfolio-3.jpeg'
 import IMG4 from '../../assets/portfolioIMGs/portfolio-4.jpeg'
 import IMG5 from '../../assets/portfolioIMGs/portfolio-5.jpg'
 import IMG6 from '../../assets/portfolioIMGs/portfolio-6.jpeg'
+//aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 // DO NOT USE THE IMAGES IN PRODUCTION
@@ -57,10 +60,15 @@ const data = [
 
 
 const Portfolio = () => {
+
+  //aos 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
  
 
   return (
-    <section id='portfolio'>
+    <section id='portfolio' data-aos="fade-right" /*YOU CAN ALSO DO THE TIMING HERE data-aos-duration="4000" */>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
 

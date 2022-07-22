@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './about.css'
 import ME from '../../assets/me-about-me.PNG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {MdLibraryMusic} from 'react-icons/md'
+
+//aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 /* import Award1 from '../../assets/awards/DCI-Fullstack Developer-2Stars-2022-05-16.png'
 import Award2 from '../../assets/awards/DCI-JavascriptDeveloper-3stars-2022-05-16.png'
@@ -13,10 +17,15 @@ import Award4 from '../../assets/awards/DCI-UserInterfaceDeveloper-3stars- 022-0
 import Award5 from '../../assets/awards/DCI-React Developer-2Stars-2022-05-16.png' */
 
 const About = () => {
+
+  //aos 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   
 
   return (
-    <section id='about'>
+    <section id='about' data-aos="fade-right">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
 

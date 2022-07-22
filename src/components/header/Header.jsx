@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './header.css'
 import CTA from './CTA'
 import HeaderSocial from './HeaderSocials'
@@ -8,11 +8,19 @@ import LogoClock from '../../assets/Nav/logoClock.jsx'
 
 import  {RiSingleQuotesL} from 'react-icons/ri'
 import {RiSingleQuotesR} from 'react-icons/ri'
+//aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 /* import {BsMouse} from 'react-icons/bs' */
 
 /* import Spline  from "@splinetool/react-spline" */
 
 const Header = () => {
+
+   //aos 
+   useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
  
 
   return (
@@ -43,7 +51,7 @@ const Header = () => {
         <HeaderSocial />
 
         <div className="me">
-           <img src={Mine} alt="me" />
+           <img src={Mine} alt="me" data-aos="flip-right"/>
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down </a>
