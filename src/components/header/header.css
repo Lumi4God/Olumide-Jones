@@ -24,24 +24,20 @@ header {
   justify-content: center;
   gap: .5rem;
 }
-
 .text,
 span {
   font-size: 20px;
 }
-
 .text ul {
   height: 30px;
   list-style: none;
   overflow: hidden;
 }
-
 .text ul li {
   position: relative;
   height: 100px;
   animation: to-top 12s steps(4) infinite;
 }
-
 /* .text ul li span {
   color: #fff;
 } */
@@ -56,7 +52,6 @@ span {
   /* border-left: 4px solid white; */
   animation: to-right 3s steps(19) infinite;
 }
-
 @keyframes to-right {
 
   40%,
@@ -68,57 +63,17 @@ span {
     left: 0;
   }
 }
-
 @keyframes to-top {
   100% {
     transform: translateY(-400%);
   }
 }
-
-.span1 {
-  /* background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
-  color: rgb(251, 251, 251);
-  /* padding: 10px; */
-}
-
-.span2 {
-  /* background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
-  color: rgb(251, 251, 251);
-  /* padding: 10px; */
-}
-
-.span3 {
-  /* background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
-  color: rgb(251, 251, 251);
-  /* padding: 10px; */
-}
-
+.span1,
+.span2,
+.span3, 
 .span4 {
-  /* background: rgba(255, 255, 255, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.3); */
   color: rgb(251, 251, 251);
-  /* padding: 10px; */
 }
-
 .rIcon {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 5px;
@@ -172,6 +127,61 @@ span {
 .me img {
   width: 100%;
   height: 100%;
+}
+
+/* =============== BUBBLES ============== */
+.bubbles {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.bubbles .language {
+  font-size: 20px;
+  font-weight: bold;
+  animation: bubble 7s linear infinite;
+}
+@keyframes bubble {
+  0% {
+      transform: translateY(0) rotate(0deg);
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  70% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-80vh) rotate(360deg);
+      opacity: 0;
+  }
+}
+.bubbles .language:nth-child(1) {
+  animation-delay: 2s;
+}
+.bubbles .language:nth-child(2) {
+  animation-delay: 1s;
+}
+.bubbles .language:nth-child(3) {
+  animation-delay: 3s;
+  width: 25px;
+}
+.bubbles .language:nth-child(4) {
+  animation-delay: 4.5s;
+}
+.bubbles .language:nth-child(5) {
+  animation-delay: 3s;
+}
+.bubbles .language:nth-child(6) {
+  animation-delay: 6s;
+  width: 20px;
+}
+.bubbles .language:nth-child(7) {
+  animation-delay: 7s;
+  width: 35px;
 }
 
 /* =============== SCROLL DOWN ============== */
