@@ -136,7 +136,7 @@ span {
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  bottom: 0;
+  bottom: -70px;
 }
 .bubbles .language {
   font-size: 20px;
