@@ -8,11 +8,15 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+//React-Reveal
+import Flip from 'react-reveal/Flip';
 
 const App = () => {
   return (
     <>
-        <Header />
+        <Flip> {/*calling React-Reveal*/}
+          <Header />
+        </Flip>
         <Nav />
         <About />
         <Experience />

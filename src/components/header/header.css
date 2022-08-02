@@ -180,6 +180,12 @@ span {
 .bubbles .language:nth-child(7) {
   animation-delay: 7s;
 }
+.bubbles .language:nth-child(8) {
+  animation-delay: 3s;
+}
+.bubbles .language:nth-child(9) {
+  animation-delay: 4s;
+}
 
 /* =============== SCROLL DOWN ============== */
 .scroll__down {

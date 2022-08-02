@@ -1,4 +1,4 @@
-import React/* , { useEffect } */ from 'react'
+import React, { useEffect } from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 import Award1 from '../../assets/awards/DCI-Fullstack Developer-2Stars-2022-05-16.png'
@@ -6,9 +6,17 @@ import Award2 from '../../assets/awards/DCI-UserInterfaceDeveloper-3stars- 022-0
 import Award3 from '../../assets/awards/DCI-JavascriptDeveloper-3stars-2022-05-16.png'
 import Award4 from '../../assets/awards/DCI-UserInterfaceDeveloper-3stars- 022-05-16.png'
 import Award5 from '../../assets/awards/DCI-React Developer-2Stars-2022-05-16.png'
+//aos
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 
 const Experience = () => {
+
+  //aos 
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   
 
   return (
@@ -107,7 +115,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <section className="badges">
+      <section className="badges" data-aos="zoom-in-right" /* data-aos-easing="linear" */>
                 <img src={Award1} alt="badge" className="badgeImg"></img>
                 <img src={Award2} alt="badge" className="badgeImg"></img>
                 <img src={Award3} alt="badge" className="badgeImg"></img>

@@ -82,6 +82,8 @@ const Header = () => {
           <span className="language">node.js</span>
           <span className="language">express.js</span>
           <span className="language">mongodb</span>
+          <span className="language">Tailwind</span>
+          <span className="language">SASS</span>
         </div>
 
         {/*mouse*/}
