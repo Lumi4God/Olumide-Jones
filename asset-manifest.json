@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Olumide-Jones-Portfolio/static/css/main.aedf2bea.css",
-    "main.js": "/Olumide-Jones-Portfolio/static/js/main.0efd80b9.js",
+    "main.css": "/Olumide-Jones-Portfolio/static/css/main.e650f11f.css",
+    "main.js": "/Olumide-Jones-Portfolio/static/js/main.8c3ed9ea.js",
     "static/media/me-about-me.PNG": "/Olumide-Jones-Portfolio/static/media/me-about-me.53fc5be6ba47988beb9b.PNG",
     "static/media/portfolio-5.jpg": "/Olumide-Jones-Portfolio/static/media/portfolio-5.610978fdb239b88c3a33.jpg",
     "static/media/mine.PNG": "/Olumide-Jones-Portfolio/static/media/mine.052f1a2056d008f89675.PNG",
@@ -18,11 +18,11 @@
     "static/media/1.webp": "/Olumide-Jones-Portfolio/static/media/1.96a0518adc5a717cc48d.webp",
     "static/media/DCI-JavascriptDeveloper-3stars-2022-05-16.png": "/Olumide-Jones-Portfolio/static/media/DCI-JavascriptDeveloper-3stars-2022-05-16.80621aa3fc6be29ac73f.png",
     "index.html": "/Olumide-Jones-Portfolio/index.html",
-    "main.aedf2bea.css.map": "/Olumide-Jones-Portfolio/static/css/main.aedf2bea.css.map",
-    "main.0efd80b9.js.map": "/Olumide-Jones-Portfolio/static/js/main.0efd80b9.js.map"
+    "main.e650f11f.css.map": "/Olumide-Jones-Portfolio/static/css/main.e650f11f.css.map",
+    "main.8c3ed9ea.js.map": "/Olumide-Jones-Portfolio/static/js/main.8c3ed9ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.aedf2bea.css",
-    "static/js/main.0efd80b9.js"
+    "static/css/main.e650f11f.css",
+    "static/js/main.8c3ed9ea.js"
   ]
 }
