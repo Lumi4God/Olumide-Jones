@@ -2,10 +2,13 @@ import React, { useEffect } from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolioIMGs/portfolio-1.jpeg'
 import IMG2 from '../../assets/portfolioIMGs/portfolio-2.jpeg'
-import IMG3 from '../../assets/portfolioIMGs/portfolio-3.jpeg'
+import IMG3 from '../../assets/portfolioIMGs/portfolio-3.PNG'
 import IMG4 from '../../assets/portfolioIMGs/portfolio-4.jpeg'
 import IMG5 from '../../assets/portfolioIMGs/portfolio-5.jpg'
 import IMG6 from '../../assets/portfolioIMGs/portfolio-6.jpeg'
+import IMG7 from '../../assets/portfolioIMGs/portfolio-7.jpeg'
+import IMG8 from '../../assets/portfolioIMGs/portfolio-8.jpeg'
+import IMG9 from '../../assets/portfolioIMGs/portfolio-9.jpeg'
 //aos
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -19,21 +22,21 @@ const data = [
     image: IMG1,
     title: 'An Arcade Image-Jackpot game',
     github: 'https://github.com/Lumi4God',
-    demo: 'https://lumi4god.github.io/Image-Jackpot-game/'
+    demo: 'https://lumicode17.github.io/Image-Jackpot-game/'
   },
   {
     id: 2,
     image: IMG2,
     title: 'Official music Website of the Tribe of Jones',
     github: 'https://github.com/Lumi4God',
-    demo: 'https://lumi4god.github.io/React-SPA-musician-page/'
+    demo: 'https://lumicode17.github.io/React-SPA-musician-page/'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'My Musicfy project, a music machine',
+    title: 'A fully responsive Game page, (My Final Project)',
     github: 'https://github.com/Lumi4God',
-    demo: 'https://lumi4god.github.io/A-music-player/'
+    demo: 'https://lumicode17.github.io/game-page-final/'
   },
   {
     id: 4,
@@ -47,7 +50,7 @@ const data = [
     image: IMG5,
     title: 'A Quiz app with sound on click',
     github: 'https://github.com/Lumi4God',
-    demo: 'https://lumi4god.github.io/React-Quiz-app/'
+    demo: 'https://lumicode17.github.io/React-Quiz-app/'
   },
   {
     id: 6,
@@ -55,6 +58,27 @@ const data = [
     title: 'My Tiktok game',
     github: 'https://github.com/Lumi4God',
     demo: 'https://tic-tac-toe-game-indol.vercel.app/'
+  },
+  {
+    id: 7,
+    image: IMG7,
+    title: 'My Musicfy project, a music machine',
+    github: 'https://github.com/Lumi4God',
+    demo: 'https://lumicode17.github.io/A-music-player/'
+  },
+  {
+    id: 8,
+    image: IMG8,
+    title: 'A Loan Calculator',
+    github: 'https://github.com/Lumi4God',
+    demo: 'https://lumicode17.github.io/loan-calculator/'
+  },
+  {
+    id: 9,
+    image: IMG9,
+    title: 'A Free Web Front-page Template',
+    github: 'https://github.com/Lumi4God',
+    demo: 'https://lumicode17.github.io/Template-001/'
   }
 ]
 
