@@ -39,7 +39,7 @@ const Header = () => {
             <ul>
               <li>
                 <span className="span1">
-                  <RiSingleQuotesL className="rIcon" /> Fullstack Developer{" "}
+                  <RiSingleQuotesL className="rIcon" /> Frontend Developer{" "}
                   <RiSingleQuotesR className="rIcon" />
                 </span>
               </li>
@@ -79,11 +79,12 @@ const Header = () => {
           <span className="language">css</span>
           <span className="language">javascript</span>
           <span className="language">react.js</span>
+          <span className="language">SASS/SCSS</span>
+          <span className="language">TailwindCSS</span>
+          <span className="language">Bootstrap</span>
           <span className="language">node.js</span>
           <span className="language">express.js</span>
           <span className="language">mongodb</span>
-          <span className="language">Tailwind</span>
-          <span className="language">SASS</span>
         </div>
 
         {/*mouse*/}
