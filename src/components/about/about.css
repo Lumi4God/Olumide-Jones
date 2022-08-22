@@ -67,22 +67,19 @@
   color: var(--color-light);
 }
 
+.about__card small .spotify{
+  color: var(--color-light);
+}
+
+.about__card small .spotify .gr {
+  color: var(--color-light);
+  font-size: 1rem;
+}
+
 .about__content p {
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
 }
-
-/******************badges*******************/
-/* .badges {
-  display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
-  padding: 2rem;
-}
-.badges .badgeImg {
-  min-width: 20%;
-  border-radius: 5%;
-} */
 
 
 /* ================ MEDIA QUERIES (MEDIUM DEVICES) ================= */

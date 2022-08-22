@@ -1,10 +1,11 @@
 import React, {useEffect} from 'react'
 import './about.css'
-import ME from '../../assets/me-about-me.PNG'
+import ME from '../../assets/XtraImgs/me-about-me.PNG'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import {MdLibraryMusic} from 'react-icons/md'
+import {BsFillPlayBtnFill} from 'react-icons/bs'
 
 //aos
 import Aos from 'aos'
@@ -59,7 +60,7 @@ const About = () => {
             <article className='about__card'>
               <MdLibraryMusic className='about__icon'/>
               <h5>Music</h5>
-              <small>4 Singles out</small>
+              <small><a href="https://open.spotify.com/artist/3yqkjMHcqHPOqML0JH89mA" className="spotify" target="_blank" rel="noreferrer"><BsFillPlayBtnFill className="gr"/></a></small>
             </article>
           </div>
 
@@ -70,17 +71,7 @@ const About = () => {
                         <strong><i> DO YOU WANT TO KNOW MORE ABOUT ME? <br></br> &#128071;&#127996;&#128071;&#127996;</i></strong>
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-
-          {/* <section className="badges">
-                <img src={Award1} alt="badge" className="badgeImg"></img>
-                <img src={Award2} alt="badge" className="badgeImg"></img>
-                <img src={Award3} alt="badge" className="badgeImg"></img>
-                <img src={Award4} alt="badge" className="badgeImg"></img>
-                <img src={Award5} alt="badge" className="badgeImg"></img>     
-          </section> */}
-
-          
+          <a href="#contact" className='btn btn-primary'>Let's Talk</a>  
 
         </div>
       </div>

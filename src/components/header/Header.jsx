@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "./header.css";
 import CTA from "./CTA";
 import HeaderSocial from "./HeaderSocials";
-import Mine from "../../assets/mine.PNG";
-import Mouse from "../../assets/mouse.png";
+import Mine from "../../assets/XtraImgs/mine.PNG";
+import Mouse from "../../assets/XtraImgs/mouse.png";
 import LogoClock from "../../assets/Nav/logoClock.jsx";
 
 import { RiSingleQuotesL } from "react-icons/ri";
@@ -74,6 +74,18 @@ const Header = () => {
         </div>
 
         {/*bubbles*/}
+        <div className="bubbles1">
+          <span className="language">html</span>
+          <span className="language">css</span>
+          <span className="language">javascript</span>
+          <span className="language">react.js</span>
+          <span className="language">SASS/SCSS</span>
+          <span className="language">TailwindCSS</span>
+          <span className="language">Bootstrap</span>
+          <span className="language">node.js</span>
+          <span className="language">express.js</span>
+          <span className="language">mongodb</span>
+        </div>
         <div className="bubbles">
           <span className="language">html</span>
           <span className="language">css</span>

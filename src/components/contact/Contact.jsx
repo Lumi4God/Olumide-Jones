@@ -12,6 +12,7 @@ import Popup from 'reactjs-popup';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
+
 const Contact = () => {
 
   //aos 
@@ -28,6 +29,8 @@ const Contact = () => {
 
     e.target.reset()
   };
+
+ 
 
   return (
     <section id='contact' data-aos="fade-right">
